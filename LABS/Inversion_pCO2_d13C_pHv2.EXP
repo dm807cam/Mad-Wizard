@@ -3,8 +3,6 @@
 # *******************************************************************
 #
 # *** CLIMATE *******************************************************
-# Eleni:SOMEWHERE HERE MARKUS SAID WE NEED TO SPECIFY WE USE THE MYAMI VERSION OF GENIE (DEV_MyAMI). I can change branch but where do I specify here?
-# set climate feedback (climate responding to changing pCO2)
 ea_36=y
 #
 # *** BIOLOGICAL NEW PRODUCTION *************************************
