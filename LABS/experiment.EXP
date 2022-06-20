@@ -19,9 +19,9 @@ ea_36=y
 ###bg_par_bio_c0_PO4=0.10E-06
 
 # *** published paleo configuration *********************************
-bg_par_bio_prodopt="1N1T_PO4MM"
-bg_par_bio_k0_PO4=8.9876e-006
-bg_par_bio_c0_PO4=8.9369e-007
+#bg_par_bio_prodopt="1N1T_PO4MM"
+#bg_par_bio_k0_PO4=8.9876e-006
+#bg_par_bio_c0_PO4=8.9369e-007
 
 # *** Crichton et al. [2020] calibration ****************************
 # NOTE: light limitation term is different in biological scheme 1N1T_PO4MM_Tdep compared to bio_P
