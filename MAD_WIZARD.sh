@@ -12,21 +12,21 @@ echo
 
 if [[ -z "$c1" ]]; then
     echo
-    echo "Base config is not provided - stop Mad Wizzard" 1>&2
+    echo "Base config is not provided - stop Mad Wizard" 1>&2
     echo
     exit 1
 fi
 
 if [[ -z "$c2" ]]; then
     echo
-    echo "USER config is not provided - stop Mad Wizzard" 1>&2
+    echo "USER config is not provided - stop Mad Wizard" 1>&2
     echo
     exit 1
 fi
 
 if [[ -z "$c3" ]]; then
     echo
-    echo "Experiment time is not provided - stop Mad Wizzard" 1>&2
+    echo "Experiment time is not provided - stop Mad Wizard" 1>&2
     echo
     exit 1
 fi
@@ -38,13 +38,14 @@ cd $workDIR
 
 # Clone cGenie branch _DEV_FeNIP2cc
 git clone -b _DEV_FeNIP2cc https://github.com/derpycode/cgenie.muffin
-git clone -b dev https://github.com/dm807cam/Mad-Wizzard.git
+git clone -b dev https://github.com/dm807cam/Mad-Wizard.git
 
-# Copy over files from the MAd-Wizzard repo to local CGenie instance
-rsync -av $workDIR/Mad-Wizzard/LABS/* $workDIR/cgenie.muffin/genie-userconfigs/LABS/
-rsync -av $workDIR/Mad-Wizzard/configs/* $workDIR/cgenie.muffin/genie-main/configs/
-rsync -av $workDIR/Mad-Wizzard/forcings/* $workDIR/cgenie.muffin/genie-forcings/
-rsync -av $workDIR/Mad-Wizzard/SPIN/* $workDIR/cgenie_output/
+# Copy over files from the Mad-Wizzard repo to local CGenie instance
+rsync -av $workDIR/Mad-Wizard/LABS/* $workDIR/cgenie.muffin/genie-userconfigs/LABS/
+rsync -av $workDIR/Mad-Wizard/configs/* $workDIR/cgenie.muffin/genie-main/configs/
+rsync -av $workDIR/Mad-Wizard/forcings/* $workDIR/cgenie.muffin/genie-forcings/
+rsync -av $workDIR/Mad-Wizard/SPIN/* $workDIR/cgenie_output/
+rsync -av $workDIR/Mad-Wizard/steps/* $workDIR/cgenie.muffin/genie-biogem/data/input/
 
 cd $workDIR/cgenie.muffin/genie-main
 
