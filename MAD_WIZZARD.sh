@@ -4,8 +4,8 @@ echo
 echo
 echo ========================================
 echo 	cGenie MyAMI fast setup on NEC HPC
-echo 	17/06/2022  - Dennis Mayk          
-echo 	dmayk@geomar.de                    
+echo 	17/06/2022  - Dennis Mayk
+echo 	dmayk@geomar.de
 echo ========================================
 echo
 echo
@@ -93,6 +93,8 @@ jobinfo
 " > submit.job
 
 cd $workDIR/cgenie.muffin/genie-main
+
+make cleanall
 sbatch submit.job
 
 echo Congratualations, you started Job $name successfully!  Hurra!
