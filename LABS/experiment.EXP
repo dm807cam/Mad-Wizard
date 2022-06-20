@@ -25,9 +25,9 @@ bg_par_bio_c0_PO4=8.9369e-007
 
 # *** Crichton et al. [2020] calibration ****************************
 # NOTE: light limitation term is different in biological scheme 1N1T_PO4MM_Tdep compared to bio_P
-bg_par_bio_prodopt='1N1T_PO4MM_Tdep' #Eleni: shouldn't these be without the #?
-bg_par_bio_mu1=10
-bg_par_bio_c0_PO4=8.9369e-007
+#bg_par_bio_prodopt='1N1T_PO4MM_Tdep' #Eleni: shouldn't these be without the #?
+#bg_par_bio_mu1=10
+#bg_par_bio_c0_PO4=8.9369e-007
 
 # *** ORGANIC MATTER EXPORT RATIOS **********************************
 # production fraction of dissolved organic matter
