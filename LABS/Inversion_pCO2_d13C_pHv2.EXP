@@ -80,7 +80,7 @@ bg_par_data_save_level=7
 # *** FORCINGS ******************************************************
 #
 # specify forcings -- restoring of atmospheric pCO2 and d13C
-bg_par_forcing_name="GFInversionpCO2d13CpH"
+#bg_par_forcing_name="GFInversionpCO2d13CpH"
 #bg_par_atm_force_scale_val_3=834.0E-06
 #bg_par_atm_force_scale_val_4=-4.9
 # not sure about this one
