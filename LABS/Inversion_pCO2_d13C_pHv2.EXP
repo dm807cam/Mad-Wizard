@@ -38,6 +38,9 @@ bg_par_bio_red_POC_CaCO3=0.200
 # *** alternative for > 200 Ma **************************************
 ###bg_par_bio_red_POC_CaCO3=0.0
 #
+
+bg_opt_geochem_Fe='FeFE2LFeL'
+
 # *** REMINERALIZATION **********************************************
 #
 # *** recommended ***************************************************
